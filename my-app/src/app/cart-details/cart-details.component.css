@@ -1,0 +1,71 @@
+#myTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+  }
+  
+  #myTable th, #myTable td {
+    text-align: left;
+    padding: 12px;
+  }
+  
+  #myTable tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myTable tr.header, #myTable tr:hover {
+   
+    background-color: blue;
+  }
+  .card{
+    margin: 25px;
+    padding: 25px;
+    height: 46vh;
+  }
+  .center{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+  }
+  .center img{
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none;
+    height: 162px;
+    width: 250px;
+   
+    margin-top: 300px;
+  }
+  h4 h6{
+    font-weight: 400;
+  }
+   .quantity{
+    margin-top: 7px;
+   
+  
+   
+}
+.quantity input{
+width: 40px;
+margin: 1px;
+}
+
+#add{
+  margin: 4px;
+}
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #6a11cb;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgb(80, 252, 37));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(106, 17, 203, 1), rgb(235, 80, 80))
+  }

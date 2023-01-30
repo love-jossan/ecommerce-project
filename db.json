@@ -1,0 +1,88 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Camera",
+      "price": 3000,
+      "offer": "5% off",
+      "soffer": "Buy this Product and Get Extra ₹500 Off on Two-Wheelers",
+      "imagePath": "https://rukminim1.flixcart.com/image/416/416/l5jxt3k0/dslr-camera/m/n/a/-original-imagg7hsggshhwbz.jpeg?q=70"
+    },
+    {
+      "id": 2,
+      "title": "Printer",
+      "price": 2000,
+      "offer": "10% off",
+      "soffer": "Buy this Product & get Extra 10% Off on future inks purchase",
+      "imagePath": "https://rukminim1.flixcart.com/image/416/416/korijrk0/printer/c/s/f/deskjet-2331-hp-original-imag356w4gyxzjza.jpeg?q=70"
+    },
+    {
+      "id": 3,
+      "title": "Cycle",
+      "price": 4000,
+      "offer": "5% off on sbi card",
+      "soffer": "Buy 2 items save 4%; Buy 3 or more save 5%",
+      "imagePath": "https://rukminim1.flixcart.com/image/416/416/kvtuxe80/cycle/8/s/c/city-26-fully-fitted-26-18-5-cradiac-single-speed-121-original-imag8nbzxcpy8p3f.jpeg?q=70"
+    },
+    {
+      "id": 4,
+      "title": "Bed",
+      "price": 11000,
+      "offer": "6% off on hdfc card",
+      "soffer": "Buy this Product and Get Extra ₹500 Off on Two-Wheelers",
+      "imagePath": "https://rukminim1.flixcart.com/image/416/416/xif0q/bedsheet/f/l/b/gold-120tc-microfiber-blue-elegant-motifs-printed-fitted-double-original-imagj5wug6crcmny.jpeg?q=70"
+    },
+    {
+      "id": 5,
+      "title": "Dual speaker",
+      "price": 1056,
+      "offer": "10% off",
+      "soffer": "Buy this Product & get Extra 10% Off on future inks purchase",
+      "imagePath": "https://rukminim1.flixcart.com/image/416/416/xif0q/musical-keyboard/x/9/s/37-0-35-big-fun-37-keys-430-a1-piano-keyboard-with-dc-power-original-imagkc9czcvhpug4.jpeg?q=70"
+    },
+    {
+      "id": 6,
+      "title": "phone",
+      "price": 10000,
+      "offer": "10% off",
+      "soffer": "Buy this Product and Get Extra ₹500 Off on Two-Wheelers",
+      "imagePath": "https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/o/p/z/-original-imagcg22pf79cgau.jpeg?q=70"
+    }
+  ],
+  "signup": [
+    {
+      "email": "lsj",
+      "password": "12345",
+      "rPassword": "12345",
+      "id": 1
+    },
+    {
+      "email": "love",
+      "password": "12345",
+      "rPassword": "12345",
+      "id": 2
+    },
+    {
+      "email": "lsj",
+      "password": "12345",
+      "rPassword": "12345",
+      "id": 3
+    },
+    {
+      "email": "lsjk",
+      "password": "12345",
+      "rPassword": "12345",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
