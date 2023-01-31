@@ -46,14 +46,14 @@ export class DialogComponent {
   addToCart(products: any) {
 
     this.shooping.addToCart(products);
-    if(products){
-    this.cart = true}
+    
+    this.cart = true
     // this.router.navigate(['/cart-details'])
   }
   removeCart(products: any) {
     this.shooping.removeCartItem(products)
-    if(products){
-    this.cart = false}
+   
+    this.cart = false
   }
 
 }
