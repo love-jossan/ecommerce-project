@@ -22,7 +22,6 @@ export class CartDetailsComponent {
     
     this.grandTotal = this.service.getTotalPrice()
     console.log('grandtotal',this.grandTotal)
-
     this.service.getProducts().subscribe((res) => {
       this.products = res;
       
@@ -53,7 +52,6 @@ export class CartDetailsComponent {
     this.service.removeCartItem(item)
     this.grandTotal = this.service.getTotalPrice()
   }
-
   emptyCart() {
     this.service.removeAllCart()
   }
@@ -64,7 +62,6 @@ export class CartDetailsComponent {
       item.total = item.price * item.quantity
       this.grandTotal = this.service.getTotalPrice()
       console.log('prod',this.products)
-     
     }
     else if (item.quantity > 1 && val === 'min') {
       item.quantity -= 1;

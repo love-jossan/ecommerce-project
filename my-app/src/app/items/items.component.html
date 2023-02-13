@@ -1,11 +1,10 @@
 
-    
+<app-header></app-header>
 <body>
 <div class="container">
     <div class="row">
         <ng-container *ngFor="let item of productsList ">
             <div class="card col-md-3">
-
                 <img src="{{item.imagePath}}" (click)="detail(item.id)" alt="Avatar">
                 <div class="system">
                     <h4>{{item.title}}</h4>
@@ -14,13 +13,10 @@
                     <!-- <button style="margin-left: 5px;" (click)="addToCart(item)" class="btn btn-dark">Add
                         Cart</button> -->
                     <!-- <button *ngIf="cart"  style="margin-left: 5px;" (click)="removeCart(item.id)" class="btn btn-dark">remove</button> -->
-
-                   
                 </div>
-              
             </div>
         </ng-container>
-
     </div>
 </div>
 </body>
+<app-footer></app-footer>

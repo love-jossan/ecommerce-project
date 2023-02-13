@@ -11,10 +11,8 @@ export class ShoopingService {
   public cartItemList: any = []
   // public productList:any=[]
   public productList = new BehaviorSubject<any>([]);
-
-  url = "http://localhost:3000/posts/"
+  url = "http://localhost:3000/posts"
   constructor(private http: HttpClient) { }
-
   getProducts(): Observable<any> {
     return this.productList.asObservable();
   }
@@ -40,7 +38,7 @@ export class ShoopingService {
   //   }
   // }
   addToCart(product: any) {
-  
+
     this.cartItemList.push(product)
     this.productList.next(this.cartItemList)
     console.log(this.cartItemList)
@@ -72,21 +70,27 @@ export class ShoopingService {
   removeAllCart() {
     this.cartItemList = []
     this.productList.next(this.cartItemList)
-    
+
+  }
+  orderNow(data: any) {
+    return this.http.post<any>(`http://localhost:3000/order`, data)
+  }
+  order() {
+    return this.http.get<any>(`http://localhost:3000/order`)
   }
 
 
   // --------------------------api----------------------------------------
   products() {
-    return this.http.get(this.url)
+    return this.http.get<any>(this.url)
   }
   getProductsId(id: any) {
     return this.http.get(this.url + id)
   }
 
-  getProductId(id:any){
+  getProductId(id: any) {
     return this.http.get<any>(`http://localhost:3000/posts/${id}`)
-    }
+  }
   signup(data: any) {
     return this.http.post<any>(`http://localhost:3000/signup`, data)
   }

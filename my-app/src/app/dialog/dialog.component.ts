@@ -11,6 +11,7 @@ import { CommonModule } from '@angular/common';
 
 export class DialogComponent {
   newProduct = []
+  hide:boolean=false
   cart: boolean = false
   products: any = []
   quantity: number = 1;
@@ -52,10 +53,11 @@ export class DialogComponent {
   }
   removeCart(products: any) {
     this.shooping.removeCartItem(products)
-   
     this.cart = false
   }
-
+abc(){
+  
+}
 }
   // shoopingItems() {
   //   this.shooping.products().subscribe((res) => {

@@ -10,6 +10,9 @@ import { LoginComponent } from './login/login.component';
 import { MainComponent } from './main/main.component';
 import { PaymentComponent } from './payment/payment.component';
 import { SignupComponent } from './signup/signup.component';
+import { TodoAddComponent } from './todo-add/todo-add.component';
+import { TodoItemComponent } from './todo-item/todo-item.component';
+import { TodoListComponent } from './todo-list/todo-list.component';
 
 const routes: Routes = [
   { path: '', redirectTo:"login",pathMatch:"full"},
@@ -17,12 +20,18 @@ const routes: Routes = [
   { path: 'signup', component: SignupComponent },
   { path: 'header', component: HeaderComponent },
   { path: 'footer', component: FooterComponent },
-  { path: 'dashboard', component: MainComponent},
-  { path: 'items', component: ItemsComponent},
+  { path: 'order', component: MainComponent},
+   { path: 'items', component: ItemsComponent},
   { path: 'dialog/:id', component: DialogComponent},
   { path: 'cart-details', component: CartDetailsComponent},
   { path: 'chekout', component: ChekoutComponent},
   { path: 'payments', component: PaymentComponent},
+  { path: 'todo/list', component: TodoListComponent},
+  { path: 'todo/item', component: TodoItemComponent},
+  { path: 'todo-add', component: TodoAddComponent},
+  
+ 
+ 
   
 ];
 

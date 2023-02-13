@@ -18,6 +18,9 @@ import { ChekoutComponent } from './chekout/chekout.component';
 import { NgxPayPalModule } from 'ngx-paypal';
 import { GooglePayButtonModule } from '@google-pay/button-angular';
 import { PaymentComponent } from './payment/payment.component';
+import { TodoListComponent } from './todo-list/todo-list.component';
+import { TodoItemComponent } from './todo-item/todo-item.component';
+import { TodoAddComponent } from './todo-add/todo-add.component';
 
 
 
@@ -36,6 +39,9 @@ import { PaymentComponent } from './payment/payment.component';
     CartDetailsComponent,
     ChekoutComponent,
     PaymentComponent,
+    TodoListComponent,
+    TodoItemComponent,
+    TodoAddComponent,
    
    
     
@@ -51,7 +57,7 @@ import { PaymentComponent } from './payment/payment.component';
     MatDialogModule,
     NgxPayPalModule,
     GooglePayButtonModule,
-
+   
 
    
     

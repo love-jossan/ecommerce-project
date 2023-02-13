@@ -20,10 +20,10 @@ export class ItemsComponent {
     this.shooping.products().subscribe((res) => {
       this.productsList = res
      
-      //  console.log('items products.......',this.productsList)
-      this.productsList.forEach((a: any) => {
-        Object.assign(a, { quantity: 1, total: a.price });
-      })
+      //   console.log('items products.......',res)
+      // this.productsList.forEach((a: any) => {
+      //   Object.assign(a, { quantity: 1, total: a.price });
+      // })
     })
   }
   detail(id: any) {
