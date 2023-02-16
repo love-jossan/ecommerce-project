@@ -17,8 +17,10 @@ export class ItemsComponent {
 
   }
   ngOnInit() {
+     
     this.shooping.products().subscribe((res) => {
       this.productsList = res
+
      
       //   console.log('items products.......',res)
       // this.productsList.forEach((a: any) => {
@@ -26,6 +28,7 @@ export class ItemsComponent {
       // })
     })
   }
+ 
   detail(id: any) {
     this.route.navigateByUrl("/dialog/" + id)
   }
@@ -47,6 +50,7 @@ export class ItemsComponent {
   //   this.shooping.removeCartItem(product)
   // this.cart=false
   // }
+  
  
 }
 

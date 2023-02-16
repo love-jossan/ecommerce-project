@@ -20,7 +20,6 @@ export class SignupComponent {
   submit(){
     console.log('form value',this.profileForm.value)
     this.service.signup(this.profileForm.value).subscribe((res)=>{
-      
       //  localStorage.setItem("user",JSON.stringify(this.profileForm.value))
     // console.log('users',res)
     })
